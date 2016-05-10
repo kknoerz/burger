@@ -4,6 +4,26 @@ var methodOverride = require('method-override')
 
 var app = express();
 
+var Sequelize = require('sequelize'),
+	connection;
+if (process.env.JAWSDB_URL) {
+	connection = new Sequelize(process.env.JAWSDB_URL);
+} else {
+	connection = new Sequelize('todo_db', 'root', 'password', {
+		host: 'localhost',
+		dialect: 'mysql',
+		port: '3306'
+	});
+}
+
+var Todo = connection.define('todo', {
+	description: {
+		type: Sequalize.STRING,
+		field: 'description',
+		allowNULL: false
+	}
+});
+
 //Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(process.cwd() + '/public'));
 

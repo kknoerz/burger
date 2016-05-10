@@ -5,8 +5,8 @@ var methodOverride = require('method-override')
 var app = express();
 
 var PORT = process.env.PORT || 3000; //avoid ports between 1-1234, use 3000, and 8080
-app.listen(port);
-// var routes = require('./app/public/survey.html');
+
+
 var db = process.env.DATABASE_URL || 'localhost'
 
 //Serve static content for the app from the "public" directory in the application directory.
@@ -26,5 +26,5 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
-var port = 3306;
-app.listen(port);
+
+app.listen(PORT);

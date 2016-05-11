@@ -16,7 +16,7 @@ var orm = {
       queryString = queryString + ') ';
       queryString = queryString + 'VALUES ( ? );';
 
-      console.log(queryString)
+      // console.log(queryString)
       vals = vals.toString();
       connection.query(queryString, vals, function(err, result) {
         if (err) throw err;
@@ -24,7 +24,7 @@ var orm = {
       });
     },
     update: function(table, objColVals, condition, cb) {
-      console.log('this is objColVals: ', objColVals);
+      // console.log('this is objColVals: ', objColVals);
       if(objColVals.devoured == 'true'){
         objColVals = 1
       }else{
@@ -37,7 +37,7 @@ var orm = {
       queryString = queryString + ' WHERE ';
       queryString = queryString + condition;
 
-      console.log(queryString)
+      // console.log(queryString);
       connection.query(queryString, function(err, result) {
         if (err) throw err;
         cb(result);

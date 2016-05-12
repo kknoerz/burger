@@ -50,9 +50,14 @@ h4 {
 
 #hamburgerTrain {
   margin-left: 40px;
+  margin-top: 10px;
 }
 
 .eaten {
   height: 400px;
   overflow: scroll;
+}
+
+.eaten li {
+  background: grey;
 }

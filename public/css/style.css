@@ -2,6 +2,10 @@ body {
   background-color: #B46627;
 }
 
+.title-container {
+  margin-top: 65px;
+}
+
 li {
   background: #FAEBD7;
   margin: 5px;
@@ -33,7 +37,7 @@ p {
 }
 
 h1 {
-  color: #5C0F10;
+  color: #651E36;
   text-align: center;
   font-size: 48pt;
   margin-left: 10px;
@@ -45,18 +49,22 @@ h2 {
 }
 
 h4 {
-  color: #5D170C;
+  color: #651E36;
   text-align: center;
   font-size: 36pt;
 }
 
 #hamburgerTrain {
-  margin-left: 40px;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .bottom {
   margin-top: 20px;
+}
+
+.eaten-title {
+  color: #555;
 }
 
 .eaten {
@@ -75,4 +83,21 @@ h4 {
   padding: 10px;
   border: 5px solid #F04200;
   background-color: #F8CC00;
+  height: 196px;
+  overflow: scroll;
+}
+
+.not-eaten-title {
+  color: #F8CC00;
+}
+
+.add-title {
+  color: #8FC200;
+}
+
+.create-update-form {
+  padding: 10px;
+  border: 5px solid #F04200;
+  background-color: #F8CC00;
+  width: 100%;
 }

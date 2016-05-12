@@ -1,5 +1,5 @@
 body {
-  background-color: #a3e820;
+  background-color: #B46627;
 }
 
 li {
@@ -32,18 +32,20 @@ p {
   display: inline-block;
 }
 
-.eat {
-  float: right;
-}
 h1 {
-  color: red;
+  color: #5C0F10;
   text-align: center;
   font-size: 48pt;
+  margin-left: 10px;
 
+}
+
+h2 {
+  text-align: center;
 }
 
 h4 {
-  color: red;
+  color: #5D170C;
   text-align: center;
   font-size: 36pt;
 }
@@ -53,11 +55,24 @@ h4 {
   margin-top: 10px;
 }
 
+.bottom {
+  margin-top: 20px;
+}
+
 .eaten {
-  height: 400px;
+  height: 357px;
+  padding: 10px;
   overflow: scroll;
+  border: 5px solid #555;
+  background-color: #875435;
 }
 
 .eaten li {
   background: grey;
+}
+
+.not-eaten {
+  padding: 10px;
+  border: 5px solid #F04200;
+  background-color: #F8CC00;
 }

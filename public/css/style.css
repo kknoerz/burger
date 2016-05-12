@@ -113,7 +113,7 @@ h4 {
 
 .not-eaten-title {
   color: #F8CC00;
-  text-shadow: 1px 2px #3A3225;
+  text-shadow: 1px 3px 1px #3A3225;
 }
 
 .add-title {
@@ -123,7 +123,9 @@ h4 {
 
 .create-update-form {
   padding: 10px;
-  border: 5px solid #EF9407;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DAA172 #BB8559;
   background-color: #F5E1BA;
   width: 100%;
   box-shadow: 2px 3px 15px #84774F inset

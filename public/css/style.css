@@ -1,13 +1,10 @@
 body {
   background-color: #B46627;
-}
-
-.title-container {
-  margin-top: 65px;
+  background-color: #b46627;
+  background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 li {
-  background: #FAEBD7;
   margin: 5px;
   padding: 5px;
   /*display: inline-block;*/
@@ -37,10 +34,12 @@ p {
 }
 
 h1 {
+  font-family: 'ABeeZee', sans-serif;
   color: #651E36;
   text-align: center;
   font-size: 48pt;
   margin-left: 10px;
+  text-shadow: 2px 2px #F8CC00;
 
 }
 
@@ -51,28 +50,35 @@ h2 {
 h4 {
   color: #651E36;
   text-align: center;
-  font-size: 36pt;
+  font-size: 72pt;
+  font-family: 'Sevillana', cursive;
+  text-shadow: 2px 2px #3A3225;
 }
 
 #hamburgerTrain {
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 65px;
 }
 
 .eaten-title {
-  color: #555;
+  color: #3A3225;
 }
 
 .eaten {
   height: 357px;
   padding: 10px;
   overflow: scroll;
-  border: 5px solid #555;
-  background-color: #875435;
+  border: 5px solid #795025;
+  background-color: #651E36;
+  background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 .eaten li {
-  background: grey;
+  background: #84774F;
+}
+
+.not-eaten li {
+  background: #F5E1BA
 }
 
 .hamburgerEaten {
@@ -81,8 +87,9 @@ h4 {
 
 .not-eaten {
   padding: 10px;
-  border: 5px solid #F04200;
-  background-color: #F8CC00;
+  border: 5px solid #A05B1C;
+  background-color: #EF9407;
+  background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
   height: 196px;
   overflow: scroll;
 }
@@ -92,12 +99,12 @@ h4 {
 }
 
 .add-title {
-  color: #8FC200;
+  color: #8FBF09;
 }
 
 .create-update-form {
   padding: 10px;
-  border: 5px solid #F04200;
-  background-color: #F8CC00;
+  border: 5px solid #EF9407;
+  background-color: #F5E1BA;
   width: 100%;
 }

@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
 
+
 var app = express();
 
 var PORT = process.env.PORT || 3000; //avoid ports between 1-1234, use 3000, and 8080
@@ -9,8 +10,8 @@ var PORT = process.env.PORT || 3000; //avoid ports between 1-1234, use 3000, and
 
 var db = process.env.DATABASE_URL || 'localhost'
 
-//Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(process.cwd() + '/public'));
+
 
 app.use(bodyParser.urlencoded({
 	extended: false

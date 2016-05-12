@@ -4,7 +4,7 @@
 <ul>
   {{#each burgers}}
     {{#unless this.devoured}}
-    <img id="hamburgerImg" src="http://fresh-spot.com/wp-content/uploads/2015/06/Hamburger.png" alt="hamburger.png">
+    <img class="hamburgerImg" src="http://fresh-spot.com/wp-content/uploads/2015/06/Hamburger.png" alt="hamburger.png">
       <li>
         {{this.burger_name}}
 
@@ -16,7 +16,8 @@
     {{/unless}}
     <script type="text/javascript">
 
-      $('#hamburgerImg').css('max-width', '100px').css('');
+      // var imgResizer = function(){$('.hamburgerImg').css('max-width','50px').css('');}
+      // imgResizer();
 
     </script>
   {{/each}}

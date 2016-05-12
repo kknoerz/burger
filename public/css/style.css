@@ -10,6 +10,13 @@ li {
   /*display: inline-block;*/
 }
 
+.title-container {
+  border-radius: 50%;
+  background-color: #ef9407;
+  background-image: url("http://www.transparenttextures.com/patterns/crossword.png");
+  box-shadow: 2px 8px 10px rgba(0,0,0,0.5);
+}
+
 .label {
   font-weight: bold;
 }
@@ -39,7 +46,7 @@ h1 {
   text-align: center;
   font-size: 48pt;
   margin-left: 10px;
-  text-shadow: 2px 2px #F8CC00;
+  text-shadow: 3px 2px #776416;
 
 }
 
@@ -52,16 +59,18 @@ h4 {
   text-align: center;
   font-size: 72pt;
   font-family: 'Sevillana', cursive;
-  text-shadow: 2px 2px #3A3225;
+  text-shadow: 1px 2px #3A3225;
 }
 
 #hamburgerTrain {
   margin-top: 10px;
   margin-left: 65px;
+  box-shadow: 3px 6px 11px rgba(0,0,0,0.5);
 }
 
 .eaten-title {
   color: #3A3225;
+  text-shadow: 1px 2px #ef9407;
 }
 
 .eaten {
@@ -71,14 +80,17 @@ h4 {
   border: 5px solid #795025;
   background-color: #651E36;
   background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.5) inset;
 }
 
 .eaten li {
   background: #84774F;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
 }
 
 .not-eaten li {
-  background: #F5E1BA
+  background: #F5E1BA;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
 }
 
 .hamburgerEaten {
@@ -92,10 +104,12 @@ h4 {
   background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
   height: 196px;
   overflow: scroll;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.5) inset;
 }
 
 .not-eaten-title {
   color: #F8CC00;
+  text-shadow: 1px 2px #3A3225;
 }
 
 .add-title {
@@ -107,4 +121,5 @@ h4 {
   border: 5px solid #EF9407;
   background-color: #F5E1BA;
   width: 100%;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.5) inset;
 }

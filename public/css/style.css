@@ -103,7 +103,7 @@ h4 {
   padding: 10px;
   border-style: solid;
   border-width: 5px;
-  border-color: #E8AF07 #D69102;
+  border-color: #D68802 #BF7205;
   background-color: #EF9407;
   background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
   height: 196px;
@@ -118,7 +118,7 @@ h4 {
 
 .add-title {
   color: #8FBF09;
-  text-shadow: -2px 2px 3px #CE8007;
+  text-shadow: -2px 2px 3px #495F0D;
 }
 
 .create-update-form {

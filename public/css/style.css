@@ -42,11 +42,11 @@ p {
 
 h1 {
   font-family: 'ABeeZee', sans-serif;
-  color: #962A4E;
+  color: #AB345B;
   text-align: center;
   font-size: 56pt;
   margin-left: 10px;
-  text-shadow: 3px 2px #463F2B;
+  text-shadow: 2px 6px 5px #463F2B;
 
 }
 
@@ -59,7 +59,7 @@ h4 {
   text-align: center;
   font-size: 72pt;
   font-family: 'Sevillana', cursive;
-  text-shadow: 1px 2px #3A3225;
+  text-shadow: -1px 6px 3px #3A3225;
 }
 
 #hamburgerTrain {
@@ -103,7 +103,7 @@ h4 {
   padding: 10px;
   border-style: solid;
   border-width: 5px;
-  border-color: #E6C018 #E8AF07;
+  border-color: #E8AF07 #D69102;
   background-color: #EF9407;
   background-image: url("http://www.transparenttextures.com/patterns/asfalt-dark.png");
   height: 196px;
@@ -118,6 +118,7 @@ h4 {
 
 .add-title {
   color: #8FBF09;
+  text-shadow: -2px 2px 3px #CE8007;
 }
 
 .create-update-form {
@@ -125,5 +126,5 @@ h4 {
   border: 5px solid #EF9407;
   background-color: #F5E1BA;
   width: 100%;
-  box-shadow: 0px 2px 15px rgba(0,0,0,0.5) inset;
+  box-shadow: 2px 3px 15px #84774F inset
 }

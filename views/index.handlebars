@@ -1,12 +1,11 @@
-<h1>Burgers!</h1>
-
-
 <ul>
   {{#each burgers}}
     {{#unless this.devoured}}
       <li>
         <img class="hamburgerImg" src="http://fresh-spot.com/wp-content/uploads/2015/06/Hamburger.png" alt="hamburger.png">
-        {{this.burger_name}}
+        <p>
+          {{this.burger_name}}
+        </p>
       </li>
       <form action="/burgers/update/{{this.id}}?_method=PUT" method="POST">
         <input type="hidden" name="devoured" value="true">

@@ -1,3 +1,5 @@
-$(document).ready(function(){
-  // console.log('working');
-});
+
+  $('#hamburgerTrain').hidden();
+  $('.eat').click(function(){
+    $('#hamburgerTrain').show();
+  })

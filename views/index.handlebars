@@ -4,15 +4,14 @@
 <ul>
   {{#each burgers}}
     {{#unless this.devoured}}
-    <img class="hamburgerImg" src="http://fresh-spot.com/wp-content/uploads/2015/06/Hamburger.png" alt="hamburger.png">
       <li>
+        <img class="hamburgerImg" src="http://fresh-spot.com/wp-content/uploads/2015/06/Hamburger.png" alt="hamburger.png">
         {{this.burger_name}}
-
-        <form action="/burgers/update/{{this.id}}?_method=PUT" method="POST">
-          <input type="hidden" name="devoured" value="true">
-          <button class="eat" type="submit">EAT!</button>
-        </form>
       </li>
+      <form action="/burgers/update/{{this.id}}?_method=PUT" method="POST">
+        <input type="hidden" name="devoured" value="true">
+        <button class="eat" type="submit">EAT!</button>
+      </form>
     {{/unless}}
     <script type="text/javascript">
 

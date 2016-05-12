@@ -6,6 +6,7 @@ li {
   background: #FAEBD7;
   margin: 5px;
   padding: 5px;
+  /*display: inline-block;*/
 }
 
 .label {
@@ -22,4 +23,8 @@ img {
 
 h1 {
   color: red;
+}
+
+#hamburgerTrain {
+  margin-top: 50px;
 }
